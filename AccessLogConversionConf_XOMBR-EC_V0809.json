@@ -8,7 +8,7 @@
 		    "NightShiftStart" : "18:00",
 		    "NightShiftEnd" : "05:59"
 	    },
-            "DateFormat" : "%Y-%m-%d %I:%M:%S %p",
+            "DateFormat" : "%m/%d/%Y %I:%M:%S %p",
             "Unit" : "ECoker",
     
             "OutputArchiveFile" : "ArchiveDailyLogs/ECokerArchive",
