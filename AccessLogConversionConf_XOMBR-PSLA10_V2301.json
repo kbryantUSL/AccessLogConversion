@@ -1,0 +1,15 @@
+{
+    
+        "InputLogFile" : "Dooractivities\\DoorActivitiesPSLA102023CSELOGS",
+        "ShiftTimes" : 
+        {
+	        "DayShiftStart" : "06:30",
+		"DayShiftEnd" : "18:29",
+		"NightShiftStart" : "18:30",
+		"NightShiftEnd" : "06:29"
+	},
+        "DateFormat" : "%m/%d/%Y %I:%M:%S %p",
+        "OutputLogFile" : "ModifiedPSLA10Logs_FullProject"
+        
+   
+}

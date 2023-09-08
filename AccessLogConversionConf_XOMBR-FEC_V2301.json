@@ -1,0 +1,15 @@
+{
+    
+        "InputLogFile" : "Dooractivities\\DoorActivitiesFEC24HR0307",
+        "ShiftTimes" : 
+        {
+		    "DayShiftStart" : "06:00",
+		    "DayShiftEnd" : "17:59",
+		    "NightShiftStart" : "18:00",
+		    "NightShiftEnd" : "05:59"
+	    },
+        "DateFormat" : "%m/%d/%Y %I:%M:%S %p",
+        "OutputLogFile" : "ModifiedFECLogs"
+        
+   
+}
