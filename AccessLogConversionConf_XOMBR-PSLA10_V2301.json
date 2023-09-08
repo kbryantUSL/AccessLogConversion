@@ -1,6 +1,6 @@
 {
     
-        "InputLogFile" : "https://github.com/kbryantUSL/AccessLogConversion/blob/main/Dooractivities/DoorActivitiesPSLA100126night.csv",
+        "InputLogFile" : "https://raw.githubusercontent.com/kbryantUSL/AccessLogConversion/main/Dooractivities/DoorActivitiesPSLA100126night.csv",
         "ShiftTimes" : 
         {
 	        "DayShiftStart" : "06:30",
@@ -9,8 +9,10 @@
 		"NightShiftEnd" : "06:29"
 	},
         "DateFormat" : "%Y-%m-%d %I:%M:%S %p",
+        "Unit" : "PSLA7",
 
-        "OutputLogFile" : "ModifiedPSLA10Logs_FullProject"
+        "OutputArchiveFile" : "ArchiveDailyLogs/PSLA7Archive",
+        "OutputLogFile" : "DailyLogs/ModifiedPSLA10Logs_FullProject"
         
    
 }
