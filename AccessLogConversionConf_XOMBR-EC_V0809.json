@@ -1,6 +1,6 @@
 {
     
-        "InputLogFile" : "Dooractivities\\DoorActivitiesFEC24HR0307",
+        "InputLogFile" : "https://raw.githubusercontent.com/kbryantUSL/AccessLogConversion/main/Dooractivities/DoorActivitiesEC.csv",
         "ShiftTimes" : 
         {
 		    "DayShiftStart" : "06:00",
@@ -8,8 +8,11 @@
 		    "NightShiftStart" : "18:00",
 		    "NightShiftEnd" : "05:59"
 	    },
-        "DateFormat" : "%m/%d/%Y %I:%M:%S %p",
-        "OutputLogFile" : "ModifiedFECLogs"
+            "DateFormat" : "%Y-%m-%d %I:%M:%S %p",
+            "Unit" : "ECoker",
+    
+            "OutputArchiveFile" : "ArchiveDailyLogs/ECokerArchive",
+            "OutputLogFile" : "DailyLogs/ModifiedECokerLogs_FullProject"
         
    
 }
