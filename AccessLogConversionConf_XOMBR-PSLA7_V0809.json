@@ -9,7 +9,7 @@
 		"NightShiftStart" : "18:30",
 		"NightShiftEnd" : "06:29"
 	},
-        "DateFormat" : "%m/%d/%Y %I:%M ",
+        "DateFormat" : "%m/%d/%Y %H:%M ",
         "Unit" : "PSLA7",
 
         "OutputArchiveFile" : "ArchiveDailyLogs/PSLA7Archive",
