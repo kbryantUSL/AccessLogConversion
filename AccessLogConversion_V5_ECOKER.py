@@ -7,6 +7,7 @@ import datetime
 from datetime import date, time, timedelta
 import sys
 import json
+import glob
 
 def read_configuration(filename):
     # Opening JSON file
@@ -153,4 +154,16 @@ df_formatted.to_csv(file_name)
 #print(df_formatted)
 print("End of execution")
 #save_access_log_table(df_formatted)
+
+path = conf_data["Path"]
+csv_files = glob.glob(path)
+print(csv_files)
+
+df = pd.DataFrame()
+
+for file in csv_files:
+    data = pd.read_csv(file)
+    df = pd.concat([df, data], axis = 0)
+
+df.to_csv(conf_data["MasterFile"], index = False)
 

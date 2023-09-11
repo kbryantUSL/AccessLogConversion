@@ -1,6 +1,8 @@
 {
     
         "InputLogFile" : "https://raw.githubusercontent.com/kbryantUSL/AccessLogConversion/main/Dooractivities/DoorActivitiesEC.csv",
+        "Path" : "C:/Users/RTLSAdmin/Documents/GitHub/AccessLogConversion/DailyLogs/ModifiedECoker*.csv",
+
         "ShiftTimes" : 
         {
 		    "DayShiftStart" : "06:00",
@@ -12,7 +14,8 @@
             "Unit" : "ECoker",
     
             "OutputArchiveFile" : "ArchiveDailyLogs/ECokerArchive",
-            "OutputLogFile" : "DailyLogs/ModifiedECokerLogs_FullProject"
+            "OutputLogFile" : "DailyLogs/ModifiedECokerLogs",
+            "MasterFile" : "ECoker_Master.csv"
         
    
 }
