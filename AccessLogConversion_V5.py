@@ -69,7 +69,7 @@ df_original.columns = ['Manway', 'Access Point', 'First Name', 'Last Name', 'Tim
 
 archive_now = datetime.datetime.now().strftime('%Y%m%d-%H%M%S')
 new_file_name = conf_data["OutputArchiveFile"] + archive_now + ".csv"
-print("Before saving file")
+print("Archive File Saved")
 ## Export the dataframe to the file
 df_original.to_csv(new_file_name)
 
@@ -147,7 +147,7 @@ now = datetime.datetime.now().strftime('%Y%m%d-%H%M%S')
 
 ## Name the file that we will save the dataframe to
 file_name = conf_data["OutputLogFile"] + now + ".csv"
-print("Before saving file")
+print("Daily Log File Saved")
 ## Export the dataframe to the file
 df_formatted.to_csv(file_name)
 #print(df_formatted)
