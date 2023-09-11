@@ -15,7 +15,7 @@
 
         "OutputArchiveFile" : "ArchiveDailyLogs/PSLA7Archive",
         "OutputLogFile" : "DailyLogs/ModifiedPSLA7Logs",
-        "MasterFile" : "PSLA_Master.csv"
+        "MasterFile" : "Tableau_Logs/PSLA_Tableau_Master.csv"
         
    
 }

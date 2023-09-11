@@ -15,7 +15,7 @@
     
             "OutputArchiveFile" : "ArchiveDailyLogs/ECokerArchive",
             "OutputLogFile" : "DailyLogs/ModifiedECokerLogs",
-            "MasterFile" : "ECoker_Master.csv"
+            "MasterFile" : "Tableau_Logs/ECoker_Tableau_Master.csv"
         
    
 }

@@ -1,4 +1,4 @@
-Unnamed: 0,Manway,Access Point,First Name,Last Name,Timestamp,Company,Structure,Card ID,Craft,Exit Timestamp,HCValue,TripID,Shift
+,Manway,Access Point,First Name,Last Name,Timestamp,Company,Structure,Card ID,Craft,Exit Timestamp,HCValue,TripID,Shift
 4,037 - F1 - MW2 - ACU(3151),Reader - In,Rodolfo,Flores,2023-09-09 01:38:21,UNITED SAFETY,F1,3721/913382,TEQ SHIELD,2023-09-09 01:38:25,1,1,09-08-Night
 5,037 - F1 - MW2 - ACU(3151),Reader - Out,Rodolfo,Flores,2023-09-09 01:38:25,UNITED SAFETY,F1,3721/913382,TEQ SHIELD,,-1,1,09-08-Night
 6,025 - F1 - MW1 - ACU(3105),Reader - In,Rodolfo,Flores,2023-09-09 01:40:31,UNITED SAFETY,F1,3721/913382,TEQ SHIELD,2023-09-09 01:40:34,1,2,09-08-Night
