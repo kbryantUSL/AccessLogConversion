@@ -30,7 +30,7 @@ def order_by_time(df_ToOrder, field_name, time_format):
     return df_ToOrder
 
 def assign_shift(df_ToAssignShift, dsStart, dsEnd, nsStart, nsEnd):
-    for j in range(1, len(df_ToAssignShift)):
+    for j in range(0, len(df_ToAssignShift)):
         
         ts_str = df_ToAssignShift.at[j, 'Timestamp']
         ts_str1 = ts_str.strftime("%H:%M")
@@ -52,14 +52,14 @@ def assign_shift(df_ToAssignShift, dsStart, dsEnd, nsStart, nsEnd):
 # Read and assign configuration from json file
 #confFilename = sys.argv[1]
 # print(confFilename)
-#confFilename = "AccessLogConversionConf_XOMBR-PSLA7_V0809.json"
-confFilename = "AccessLogConversionConf_XOMBR-EC_V0809.json"
+confFilename = "AccessLogConversionConf_XOMBR-PSLA7_V0809.json"
+#confFilename = "AccessLogConversionConf_XOMBR-EC_V0809.json"
 
 conf_data = read_configuration(confFilename)
 
 # Grab the input file name from the config data
 ##logfilename = conf_data["InputLogFile"] + ".csv"
-logfilename = conf_data["InputLogFile"]
+logfilename = conf_data["InputLogFile"] + ".csv"
 
 ##url = 'https://raw.githubusercontent.com/kbryantUSL/AccessLogConversion/main/Dooractivities/DoorActivitiesPSLA100126night.csv'
 # Read the file as a csv and insert the data in a data frame
@@ -112,7 +112,7 @@ df_length = len(df_formatted)   # assign length of main table to a variable
 #print("The DF length is ", df_length)
 # This is the main loop. Find each Reader - In row in this chronologically sorted table, and then find it's associated Reader - Out
 for i in range(0,df_length):
-    if (df_formatted.at[df_formatted.index[i], 'Access Point'] == "Reader - In"):
+    if ((df_formatted.at[df_formatted.index[i], 'Access Point'] == "Reader - In") and (df_formatted.at[df_formatted.index[i], 'TripID'] == 0)):
         rowIndexToCheck = i+1
         exitEventFound = False
 
@@ -124,11 +124,14 @@ for i in range(0,df_length):
                 if (df_formatted.at[df_formatted.index[rowIndexToCheck], 'TripID'] == 0):
                     #print("In TripID check ")
                     if (df_formatted.at[df_formatted.index[rowIndexToCheck], 'Card ID'] == df_formatted.at[df_formatted.index[i], 'Card ID']):
+                        #print("In Card ID check ")
                         if (df_formatted.at[df_formatted.index[rowIndexToCheck], 'Structure'] == df_formatted.at[df_formatted.index[i], 'Structure']): 
+                            #print("In Structure check ")
                             if (df_formatted.at[df_formatted.index[rowIndexToCheck], 'Shift'] == df_formatted.at[df_formatted.index[i], 'Shift']):
-                                
+                                #print("In Shift check ")
                                 time_difference = df_formatted.at[df_formatted.index[rowIndexToCheck], 'Timestamp'] - df_formatted.at[df_formatted.index[i], 'Timestamp']
                                 if (time_difference) < timedelta(hours=12):
+                                    #print("In time_difference check ")
                                
                                     exitEventFound = True
                                     tripCounter += 1
@@ -137,6 +140,8 @@ for i in range(0,df_length):
                                     df_formatted.at[df_formatted.index[i], 'HCValue'] = 1
                                     df_formatted.at[df_formatted.index[rowIndexToCheck], 'HCValue'] = -1
                                     df_formatted.at[df_formatted.index[i], 'Exit Timestamp'] = df_formatted.at[df_formatted.index[rowIndexToCheck], 'Timestamp']
+            elif (df_formatted.at[df_formatted.index[rowIndexToCheck], 'Card ID'] == df_formatted.at[df_formatted.index[i], 'Card ID']):
+                df_formatted.at[df_formatted.index[rowIndexToCheck], 'TripID'] = -1
                                     
                     
             rowIndexToCheck +=1
@@ -166,4 +171,3 @@ for file in csv_files:
     df = pd.concat([df, data], axis = 0)
 
 df.to_csv(conf_data["MasterFile"], index = False)
-

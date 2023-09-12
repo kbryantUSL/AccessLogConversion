@@ -7,6 +7,7 @@ import datetime
 from datetime import date, time, timedelta
 import sys
 import json
+import glob
 
 def read_configuration(filename):
     # Opening JSON file

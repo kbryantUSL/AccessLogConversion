@@ -1,6 +1,6 @@
 {
     
-        "InputLogFile" : "Dooractivities\\TEST",
+        "InputLogFile" : "Dooractivities\\PSLA7_9-11-23_24HR",
         "Path" : "C:/Users/RTLSAdmin/Documents/GitHub/AccessLogConversion/DailyLogs/ModifiedPSLA7*.csv",
 
         "ShiftTimes" : 
