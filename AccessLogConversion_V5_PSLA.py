@@ -59,7 +59,7 @@ conf_data = read_configuration(confFilename)
 
 # Grab the input file name from the config data
 ##logfilename = conf_data["InputLogFile"] + ".csv"
-logfilename = conf_data["InputLogFile"]
+logfilename = conf_data["InputLogFile"] + ".csv"
 
 ##url = 'https://raw.githubusercontent.com/kbryantUSL/AccessLogConversion/main/Dooractivities/DoorActivitiesPSLA100126night.csv'
 # Read the file as a csv and insert the data in a data frame
