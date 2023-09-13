@@ -52,8 +52,8 @@ def assign_shift(df_ToAssignShift, dsStart, dsEnd, nsStart, nsEnd):
 # Read and assign configuration from json file
 #confFilename = sys.argv[1]
 # print(confFilename)
-confFilename = "AccessLogConversionConf_XOMBR-PSLA7_V0809.json"
-#confFilename = "AccessLogConversionConf_XOMBR-EC_V0809.json"
+#confFilename = "AccessLogConversionConf_XOMBR-PSLA7_V0809.json"
+confFilename = "AccessLogConversionConf_XOMBR-EC_V0809.json"
 
 conf_data = read_configuration(confFilename)
 

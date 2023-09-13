@@ -1,6 +1,6 @@
 {
     
-        "InputLogFile" : "https://raw.githubusercontent.com/kbryantUSL/AccessLogConversion/main/Dooractivities/DoorActivitiesEC.csv",
+        "InputLogFile" : "Dooractivities\\EAST_COKER_9-12-23_24HR",
         "Path" : "C:/Users/RTLSAdmin/Documents/GitHub/AccessLogConversion/DailyLogs/ModifiedECoker*.csv",
 
         "ShiftTimes" : 
@@ -10,7 +10,7 @@
 		    "NightShiftStart" : "18:00",
 		    "NightShiftEnd" : "05:59"
 	    },
-            "DateFormat" : "%m/%d/%Y %I:%M:%S %p",
+            "DateFormat" : "%m/%d/%Y %H:%M",
             "Unit" : "ECoker",
     
             "OutputArchiveFile" : "ArchiveDailyLogs/ECokerArchive",
