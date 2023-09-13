@@ -1,4 +1,4 @@
-Unnamed: 0,Manway,Access Point,First Name,Last Name,Timestamp,Company,Structure,Card ID,Craft,Exit Timestamp,HCValue,TripID,Shift
+,Manway,Access Point,First Name,Last Name,Timestamp,Company,Structure,Card ID,Craft,Exit Timestamp,HCValue,TripID,Shift
 0,013 - T1 - 15A - ACU(0082),Reader - In,Frank,Rivera,2023-09-12 06:00:00,UNITED SAFETY,T1,3721/912904,*DEFAULT,2023-09-12 06:00:00,1,1,09-12-Day
 1,013 - T1 - 15A - ACU(0082),Reader - Out,Frank,Rivera,2023-09-12 06:00:00,UNITED SAFETY,T1,3721/912904,*DEFAULT,,-1,1,09-12-Day
 2,006 - T1 - 15E - ACU(3150),Reader - In,Heath,Oliver,2023-09-12 11:02:00,UNITED SAFETY,T1,3721/521452,*DEFAULT,2023-09-12 11:02:00,1,2,09-12-Day
