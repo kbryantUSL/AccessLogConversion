@@ -1,0 +1,23 @@
+,,Manway,Access Point,First Name,Last Name,Timestamp,Company,Structure,Card ID,Craft,Exit Timestamp,HCValue,TripID,Shift,
+0,,008 - T1 - M2 - ACU(3159),Reader - In,Tony,Rodriguez,9/13/2023 14:00,KOCH,T1,3721/915101,*DEFAULT,9/13/2023 17:16,1,1,09-13-Day,
+1,"In Reader - Out check;
+In TripID check;       
+In Card ID check;
+In Structure check;
+In Shift check;
+In time_difference check;",008 - T1 - M2 - ACU(3159),Reader - Out,Tony,Rodriguez,9/13/2023 17:16,KOCH,T1,3721/915101,*DEFAULT,,-1,1,09-13-Day,
+2,,008 - T1 - M2 - ACU(3159),Reader - In,Tony,Rodriguez,9/13/2023 17:37,KOCH,T1,3721/915101,*DEFAULT,,0,0,09-13-Day,
+3,"In Reader - Out check;
+In TripID check;
+In Card ID check;
+In Structure check;",008 - T1 - M2 - ACU(3159),Reader - Out,Tony,Rodriguez,9/13/2023 18:12,KOCH,T1,3721/915101,*DEFAULT,,0,0,09-13-Night,
+4,,008 - T1 - M2 - ACU(3159),Reader - In,Tony,Rodriguez,9/13/2023 21:13,KOCH,T1,3721/915101,*DEFAULT,,0,-1,09-13-Night,
+5,"In Reader - Out check;
+In TripID check;
+In Card ID check;
+In Structure check;",008 - T1 - M2 - ACU(3159),Reader - Out,Tony,Rodriguez,9/13/2023 21:55,KOCH,T1,3721/915101,*DEFAULT,,0,0,09-13-Night,
+6,,008 - T1 - M2 - ACU(3159),Reader - In,Tony,Rodriguez,9/13/2023 22:19,KOCH,T1,3721/915101,*DEFAULT,,0,-1,09-13-Night,
+7,"In Reader - Out check;
+In TripID check;
+In Card ID check;
+In Structure check;",008 - T1 - M2 - ACU(3159),Reader - Out,Tony,Rodriguez,9/14/2023 0:07,KOCH,T1,3721/915101,*DEFAULT,,0,0,09-13-Night,

@@ -1,6 +1,6 @@
 {
     
-        "InputLogFile" : "Dooractivities\\EAST_COKER_9-12-23_24HR",
+        "InputLogFile" : "Dooractivities\\EXAMPLE",
         "Path" : "C:/Users/RTLSAdmin/Documents/GitHub/AccessLogConversion/DailyLogs/ModifiedECoker*.csv",
 
         "ShiftTimes" : 
@@ -14,7 +14,7 @@
             "Unit" : "ECoker",
     
             "OutputArchiveFile" : "ArchiveDailyLogs/ECokerArchive",
-            "OutputLogFile" : "DailyLogs/ModifiedECokerLogs",
+            "OutputLogFile" : "DailyLogs/Coker/ModifiedECokerLogs",
             "MasterFile" : "Tableau_Logs/ECoker_Tableau_Master.csv"
         
    

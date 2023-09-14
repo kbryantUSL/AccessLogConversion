@@ -1,6 +1,6 @@
 {
     
-        "InputLogFile" : "Dooractivities\\PSLA7_9-12-23_24HR",
+        "InputLogFile" : "Dooractivities\\PSLA7_9-13-23_24HR",
         "Path" : "C:/Users/RTLSAdmin/Documents/GitHub/AccessLogConversion/DailyLogs/ModifiedPSLA7*.csv",
 
         "ShiftTimes" : 
@@ -14,7 +14,7 @@
         "Unit" : "PSLA7",
 
         "OutputArchiveFile" : "ArchiveDailyLogs/PSLA7Archive",
-        "OutputLogFile" : "DailyLogs/ModifiedPSLA7Logs",
+        "OutputLogFile" : "DailyLogs/PSLA/ModifiedPSLA7Logs",
         "MasterFile" : "Tableau_Logs/PSLA_Tableau_Master.csv"
         
    

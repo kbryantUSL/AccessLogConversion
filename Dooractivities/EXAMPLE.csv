@@ -1,0 +1,9 @@
+Door,Side,First name,Last name,Event timestamp,COMPANY (Cardholder),DOOR (Door),Credential code,CRAFT (Cardholder)
+008 - T1 - M2 - ACU(3159),Reader - In,Tony,Rodriguez,9/13/2023 14:00,KOCH,T1,3721/915101,*DEFAULT
+008 - T1 - M2 - ACU(3159),Reader - Out,Tony,Rodriguez,9/13/2023 17:16,KOCH,T1,3721/915101,*DEFAULT
+008 - T1 - M2 - ACU(3159),Reader - In,Tony,Rodriguez,9/13/2023 17:37,KOCH,T1,3721/915101,*DEFAULT
+008 - T1 - M2 - ACU(3159),Reader - Out,Tony,Rodriguez,9/13/2023 18:12,KOCH,T1,3721/915101,*DEFAULT
+008 - T1 - M2 - ACU(3159),Reader - In,Tony,Rodriguez,9/13/2023 21:13,KOCH,T1,3721/915101,*DEFAULT
+008 - T1 - M2 - ACU(3159),Reader - Out,Tony,Rodriguez,9/13/2023 21:55,KOCH,T1,3721/915101,*DEFAULT
+008 - T1 - M2 - ACU(3159),Reader - In,Tony,Rodriguez,9/13/2023 22:19,KOCH,T1,3721/915101,*DEFAULT
+008 - T1 - M2 - ACU(3159),Reader - Out,Tony,Rodriguez,9/14/2023 0:07,KOCH,T1,3721/915101,*DEFAULT
